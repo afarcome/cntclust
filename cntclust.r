@@ -228,8 +228,8 @@ cntclust <- function(
 )
 {
     
-    eps = 0.001,       # to avoid problems with alpha
-    Cstepv = FALSE,    # will be implemented in the future 
+    eps = 0.001       # to avoid problems with alpha
+    Cstepv = FALSE    # will be implemented in the future 
 
     if(is.data.frame(X))
     X <- data.matrix(X)
